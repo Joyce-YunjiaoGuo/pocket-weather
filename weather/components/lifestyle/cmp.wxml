@@ -1,0 +1,6 @@
+<!--components/lifestyle/cmp.wxml-->
+<view class="container">
+  <image class="img" src="{{imgSrc}}"></image>
+  <text class="title">{{title}}</text>
+  <text class="brf">{{lifeDetail.brf}}</text>
+</view>

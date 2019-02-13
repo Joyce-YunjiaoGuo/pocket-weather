@@ -1,0 +1,42 @@
+/* components/dailyForecast/cmp.wxss */
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 700rpx;
+  height: 100rpx;
+  border: 1px dotted #ccc;
+  font-size: 28rpx;
+  box-sizing: border-box;
+}
+
+.date {
+  display: flex;
+  width: 150rpx;
+  align-items: center;
+}
+
+
+.condition {
+  display: inline-block;
+  width: 80rpx;
+  text-align: center;
+}
+
+
+.condition-img {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.temp {
+  display: inline-block;
+  width: 40rpx;
+  height: 40rpx;
+  /* font-size: 28rpx; */
+  text-align: center;
+  line-height: 40rpx;
+}
+
+
+

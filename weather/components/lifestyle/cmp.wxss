@@ -1,0 +1,26 @@
+/* components/lifestyle/cmp.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 170rpx;
+  height: 170rpx;
+  border: 1px solid #9cf;
+}
+
+.img {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.title {
+  font-size: 28rpx;
+  color: #8a8a8a;
+}
+
+.brf {
+  margin-top: 10rpx;
+  font-size: 28rpx;
+  font-weight: 600;
+}

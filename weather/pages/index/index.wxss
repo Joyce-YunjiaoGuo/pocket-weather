@@ -1,0 +1,97 @@
+/**index.wxss**/
+.container {
+  padding: 0;
+  justify-content: center;
+}
+
+.search {
+  width: 680rpx;
+  height: 70rpx;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+  font-size: 28rpx;
+}
+
+.gps {
+  width: 60rpx;
+  height: 60rpx;
+  margin: 0 10rpx;
+}
+
+
+.input {
+  flex-grow: 1;
+  border: 1px solid #666;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+  padding: 5rpx;
+}
+
+.btn {
+  display: inline-block;
+  width: 120rpx;
+  text-align: center;
+  line-height: 70rpx;
+  /* border: 1px solid #666; */
+  border-radius: 10rpx;
+  background-color: #fc3;
+  color: #666;
+}
+
+.weather-now {
+  display: flex;
+  align-items: center;
+  width: 700rpx;
+  height: 400rpx;
+  background-color: rgba(0,0,0, 0.1);
+  border-radius: 20rpx;
+  margin-bottom: 30rpx;
+}
+
+.image {
+  width: 200rpx;
+  height: 200rpx;
+  margin-left: 60rpx;
+}
+
+
+
+.weather-now-text {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 28rpx;
+  text-align: center;
+}
+
+.location {
+  font-size: 44rpx;
+  font-weight: 600;
+}
+
+.tempture {
+  font-size: 64rpx;
+  font-weight: 500;
+}
+
+.lifestyle {
+  width: 700rpx;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30rpx;
+  font-size: 28rpx;
+}
+
+.life-detail {
+  width: 20%;
+}
+
+.weather-days {
+  width: 700rpx;
+}
+
+.today {
+  width: 45rpx;
+  height: 60rpx;
+}

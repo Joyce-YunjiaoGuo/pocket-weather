@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="search">
+    <image  class="gps" src="/images/GPS.png" catchtap='setLocation'></image>
+    <input class="input" placeholder='想查看哪里的天气呢' bindconfirm="onSearch" bindblur="onBlur"></input>
+    <text class="btn" catch:tap="onSearch">搜索</text>
+  </view>
+  <view class="weather-now">
+    <image class="image" src="{{imgSrc}}"></image>
+    <view class="weather-now-text">
+      <view>
+        <text class="location">{{basic.parent_city}}</text>
+        <text class="detail" wx:if="{{basic.location != basic.parent_city}}">{{basic.location}}</text>
+      </view>
+      <text class="condition">{{now.cond_txt}}</text>
+      <text class="tempture">{{now.tmp}}℃</text>
+  </view>
+</view>
+  
+  <view class="lifestyle" wx:if="{{lifestyle}}" >
+    <cmp-lifestyle  wx:for="{{lifestyle}}" wx:key="{{item.type}}" life-detail="{{item}}" index="{index}" />
+  </view>
+
+  
+  <view class="weather-days" >
+    <cmp-dailyForecast wx:for="{{forecast}}" wx:key="{{item.date}}" daily="{{item}}">
+      <image class="today" src="/images/today.png" wx:if="{{index == 0}}"></image>
+    </cmp-dailyForecast>
+  </view>
+</view>

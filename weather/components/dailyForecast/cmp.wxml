@@ -1,0 +1,12 @@
+<!--components/dailyForecast/cmp.wxml-->
+<view class="container">
+  <view class="date">
+    <text >{{date}}</text>
+    <slot class="slot"></slot>
+  </view>
+  
+  <text class="condition">{{daily.cond_txt_d}}</text>
+  <image class="condition-img" src="{{daily.imgSrc}}"></image>
+  <text class="temp">{{daily.tmp_max}}℃</text>
+  <text class="temp">{{daily.tmp_min}}℃</text>
+</view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "cmp-dailyForecast": "/components/dailyForecast/cmp",
+    "cmp-lifestyle": "/components/lifestyle/cmp"
+  }
+}
